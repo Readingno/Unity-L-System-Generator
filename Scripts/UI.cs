@@ -116,7 +116,7 @@ public class UI : MonoBehaviour
                 length.value = 0.1f;
                 angle.value = 25.7f;
                 break;
-            case 9:// F     F -> F[+F]F[-F]F        F2 -> FF-[-F+F+F]+[+F-F-F]
+            case 9:// F     F -> FF+[+F-F-F]-[-F+F+F]        F2 -> FF-[-F+F+F]+[+F-F-F]
                 starting.text = "F";
                 F_rule.text = "FF+[+F-F-F]-[-F+F+F]";
                 F2_rule.text = "FF-[-F+F+F]+[+F-F-F]";
